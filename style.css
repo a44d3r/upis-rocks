@@ -1,0 +1,274 @@
+body {
+	margin: 40px 30px 10px 30px;
+	background-color: #000000;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+}
+
+.indicks {
+	font-family: calibri;
+	background-color: #ffffff;
+	margin: 0px 0px 0px 0px;
+	overflow-x: hidden;
+}
+
+.indicks .upper {
+	position: fixed;
+	top: 0px;
+}
+
+.indicks header {
+	width: 100%;
+	height: 10vh;
+	text-align: center;
+	font-family: garamond;
+	color: #ffffff;
+	background-color: #830300;
+	margin: 0px 0px 0px 0px;
+	padding: 1% 0px 1% 0px;
+}
+
+.indicks iframe {
+	border: none;
+	height: 100%;
+	width: 85%;
+	overflow: scroll;
+}
+
+.indicks nav {
+	background-color: #014421;
+	float: left;
+	width: 15%;
+	height: 80vh;
+	padding: 10px 0px 10px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.indicks article {
+	width: 100%;
+	height: 75vh;
+	border: none;
+}
+
+.indicks footer {
+	text-align: center;
+	font-family: arial;
+	color: #ffffff;
+	background-color: #830300;
+	width: 100%;
+	height: 5vh;
+	margin: 0px 0px 0px 0px;
+	padding: 1% 0px 2% 0px;
+	position: absolute;
+	bottom: 0px;
+}
+
+.indicks p.cred {
+	font-size: 13px;
+	max-width: 200px;
+	text-align: center;
+	margin: 5px auto 0px auto;
+}
+
+.indicks a:link, a:visited, a:hover {
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	line-height: 200%
+}
+
+.indicks a.speshul:link, a.speshul:visited, a.speshul:hover {
+	line-height: 1em;
+	cursor: pointer;
+}
+
+.indicks a.butt {
+	cursor: default;
+}
+
+.indicks a.butt:active {
+	pointer-events: none;
+	cursor: default;
+	background-color: #830300;
+}
+
+.indicks table {
+	width: 100%;
+	text-align: center;
+	max-height: 300px;
+}
+
+.indicks tr {
+	height: 2.25em;
+}
+
+.indicks tr:hover {
+	padding: 0px 0px 0px 0px;
+	max-height: 10px;
+	background-color: #830300;
+	position: relative;
+}
+
+.indicks div.drop2 {
+	position: relative;
+}
+
+.indicks div.shiz, div.shiz2 {
+	visibility: hidden;
+	text-align: center;
+	background-color: #014421;
+	box-shadow: 0px 0px 5px #555555;
+	min-width: 100%;
+	position: absolute;
+	left: calc(15vw - 5px);
+	top: -0.03em;
+	border: solid #ffffff 5px;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-right: 0px;
+	z-index:999999;
+}
+
+.indicks div.shiz a, div.shiz2 a {
+	line-height: 2.25em;
+	padding:0px 10px 0px 10px;
+}
+
+.indicks div.shiz a:hover, div.shiz2 a:hover {
+	background-color: #830300
+}
+
+.indicks div.drop:hover div.shiz, div.drop2:hover div.shiz2{
+	visibility: visible;
+}
+
+.indicks .lol {
+	display: none;
+}
+
+.indicks .cred:hover .lol {
+	display: inline-block;
+}
+
+.crawl {
+	background-image: url("pix/bg.jpg");
+	overflow: hidden;
+	font-family: arial;
+	font-weight: bold;
+	color: #ffd700;
+	perspective: 1000px;
+}
+
+.crawl h1 {
+	font-size: 50px;
+}
+
+.crawl marquee {
+	transform: rotateX(50deg);
+	font-size: 32px;
+	line-height: 50px;
+	text-align: justify;	
+	background-color: rgba(0, 0, 0, 0);
+	color: yellow;
+	display: block;
+	margin: 0px auto 0px auto;
+	max-width: 500px;
+	height: 900px;
+	position: relative;
+	top: -300px;	
+}
+
+.tale, .contact {
+	color: #dddddd;
+}
+
+.tale h1, .contact h1 {
+	font-family: garamond;
+	font-size: 55px;
+	border-bottom: solid 3px #dddddd;
+	border-top: solid 3px #dddddd;
+	margin: 0px auto 0px auto;
+}
+
+.tale h1.fact, .contact h1{
+	max-width: 400px;
+}
+
+.tale h1.char{
+	max-width: 250px;
+}
+
+.tale img {
+	max-width: 500px;
+	display: block;
+	margin: 0px auto 20px auto;
+}
+
+.tale q {
+	display: block;
+	margin: 0px auto 0px auto;
+	padding: 30px 10px 10px 10px;
+	text-align: center;
+	font-style: italic;
+	font-size: 30px;
+}
+
+.tale div#main, q.in {
+	font-size: 20px;
+	max-width: 500px;
+	font-family: calibri;
+	margin: 0px auto 0px auto;
+	padding: 0px 0px 20px 0px;
+}
+
+.tale q.in {
+	display: inline-block;
+}
+
+.tale div.battle {
+	padding-left: 20px;
+	border-left-style: solid;
+	border-left-color: #dddddd;
+	border-left-width: 5px;
+	font-style: italic;
+}
+
+.tale p.letter {
+	font-family: kunstler script;
+	font-size: 40px;
+	width: 600px;
+	position: relative;
+	left: -50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tale span.indent {
+	visibility: hidden;
+}
+
+.tale table.gallery {
+	border:solid white 1px;
+	width: 500px;
+	height: 375px;
+	margin: 0px auto 20px auto;
+	background-color: #000000;
+}
+
+.tale img.citizens {
+	max-width: 150px;
+}
+
+.contact h2 {
+	padding-top: 20px;
+}
+
+.contact p {
+	text-align: center;
+}
